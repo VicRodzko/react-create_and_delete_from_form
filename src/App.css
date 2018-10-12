@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+form {
+	width: 800px;
+	margin: 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;	
+}
+input {
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-left: 20px;
+	width: 700px;
+	margin-left: 20px;
+	border-radius: 5px;
+	background: #D3D3D3;
+}
+textarea {
+	width: 700px;
+	margin-left: 20px;
+	padding: 5px;
+	padding-left: 20px;
+	border-radius: 5px;
+	background: #D3D3D3;
+}
+header {
+	background: #1E90FF;
+}
+header div {
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+header div a img {
+	width: 50px;
+	margin: 10px 20px 10px 0;
+}
+header div h1 a {
+	color: white;
+	font: bold 20px 'Sans-serif';
+	text-decoration: none;
+}
+.mainCont {
+	width: 850px;
+	margin: 30px auto;
+	border-radius: 10px;
+	border: 1px #1E90FF solid;
+	box-shadow: 0 0 3px 2px gray;
+	padding: 25px;
+}
+.addList {
+	margin-top: 20px;
+	background: #87CEEB;
+	padding: 5px 10px 5px 20px;
+	border-radius: 5px;
+}
+
+/*New Elements with JS*/
+
+.newLiContainer {
+	width: 800px;
+	margin: 30px auto;
+	position: relative;
+	padding-left: 40px;
+}
+.newName {
+	font: bold 20px 'Sans-serif';
+	color: black;
+	padding-left: 40px;
+}
+.newOwner {
+	font: 14px 'Sans-serif';
+	padding-left: 40px;
+}
+.newDate {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	font: italic 14px 'Sans-serif';
+}
+.newTime {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font: italic 14px 'Sans-serif';
+}
+.newNotes {
+	font: 14px 'Sans-serif';
+	padding-left: 40px;
+}
+b {
+	font-weight: bold;
+}
+
+.delete {
+	float: left;
+	height: 27px;
+	width: 27px;
+	background: url(../src/img/cancel-mark.png);
+	border-radius: 5px;
+	margin-top: 10px;
+}
+li {
+	list-style-type: none;
+}
+.searchCNT {
+	width: 850px;
+	margin: auto;
+}
+select {
+	padding: 5.5px;
+	background: #00FFFF;
+	border-radius: 5px;
+}
+.searchCNT input {
+	padding: 5.5px;
+	background: #D3D3D3;
+	border-radius: 5px;
+}
